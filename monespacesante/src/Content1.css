@@ -1,0 +1,89 @@
+.btn {
+    font-weight: bold;
+    margin-left: 1rem;
+    background-color: rgba(8, 0, 255, 0.819);
+    color: white;
+    font-family: calibri;
+    padding: 0.55rem 2rem;
+    font-size: 1rem;
+    border-radius: 28px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    border: none;
+    transition: box-shadow 0.3s, text-decoration 0.3s, text-align 0.3s;
+    font-family: calibri;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pink {
+    color: rgba(230, 27, 196, 0.919);
+    font-family: calibri;
+    font-size: 1.7rem;
+}
+
+.black {
+    color: rgba(0, 0, 0, 0.77);
+    font-family: calibri;
+    font-size: 2rem;
+}
+
+.Gray {
+    color: rgba(45, 44, 44, 0.77);
+    font-family: calibri;
+    font-size: 1rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    position: absolute;
+    flex: 1;
+    top: 30%;
+    left: 7.5%;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container {
+    display: flex;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .text-container {
+    flex: 1;
+    position: absolute;
+    left: 60%;
+  }
+
+  .p {
+    color: rgba(230, 27, 196, 0.919);
+    font-family: calibri;
+    font-size: 1.7rem;
+  }
+
+  .b {
+    color: rgba(0, 0, 0, 0.77);
+    font-family: calibri;
+    font-size: 2rem;
+  }
+
+.g {
+    color: rgba(45, 44, 44, 0.77);
+    font-family: calibri;
+    font-size: 1rem;
+}
+  

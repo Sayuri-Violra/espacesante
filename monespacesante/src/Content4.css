@@ -1,0 +1,34 @@
+.contain {
+    display: flex;
+  }
+  
+  .image-contain {
+    position: absolute;
+    top: 240%;
+    right: 56%;
+  }
+  
+  .text-contain {
+    position: absolute;
+    left: 60%;
+    top: 250%;
+  }
+
+  .p {
+    color: rgba(230, 27, 196, 0.919);
+    font-family: calibri;
+    font-size: 1.7rem;
+  }
+
+  .b {
+    color: rgba(0, 0, 0, 0.77);
+    font-family: calibri;
+    font-size: 2rem;
+  }
+
+.g {
+    color: rgba(45, 44, 44, 0.77);
+    font-family: calibri;
+    font-size: 1rem;
+}
+  

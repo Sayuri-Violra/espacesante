@@ -1,0 +1,42 @@
+.x {
+    display: flex;
+  }
+  
+  .y {
+    position: absolute;
+    left: 5%;
+    top: 425%;
+  }
+
+  .yo {
+    position: absolute;
+    top: 450%;
+    left: 55%;
+    
+  }
+  
+  .z {
+    position: absolute;
+    left: 55%;
+    top: 430%;
+
+  }
+
+  .u {
+    color: rgba(230, 27, 196, 0.919);
+    font-family: calibri;
+    font-size: 1.7rem;
+  }
+
+  .v {
+    color: rgba(0, 0, 0, 0.77);
+    font-family: calibri;
+    font-size: 2rem;
+  }
+
+.w {
+    color: rgba(45, 44, 44, 0.77);
+    font-family: calibri;
+    font-size: 1rem;
+}
+  

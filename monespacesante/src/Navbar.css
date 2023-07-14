@@ -1,0 +1,68 @@
+.navbar {
+    z-index: 999;
+    position: fixed;
+    width: 98%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    width: 75px;
+}
+  
+.navbar__button1 {
+    font-weight: none;
+    margin-left: 1rem;
+    color: rgba(8, 0, 255, 0.819);
+    text-decoration: none;
+    font-family: calibri;
+}
+
+.navbar__button2 {
+    font-weight: bold;
+    margin-left: 1rem;
+    background-color: rgba(8, 0, 255, 0.819);
+    color: white;
+    font-family: calibri;
+    padding: 0.55rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 28px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    border: none;
+    transition: box-shadow 0.3s, text-decoration 0.3s, text-align 0.3s;
+    font-family: calibri;
+}
+
+.navbar__button2:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.navbar__button3 {
+    font-weight: none;
+    margin-left: 1rem;
+    background-color: white;
+    color: rgba(8, 0, 255, 0.819);
+    font-family: calibri;
+    padding: 0.55rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 28px;
+    border-color: rgba(8, 0, 255, 0.819);
+    transition: background-color 0.3s, text-align 0.3s, text-decorataion 0.3s;
+    font-family: calibri;
+}
+
+.navbar__button3:hover {
+    text-align: center;
+    text-decoration: underline;
+    background-color: #f2f1f1;
+}

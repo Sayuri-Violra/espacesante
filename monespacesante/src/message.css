@@ -1,0 +1,53 @@
+.image-for-message {
+    position: fixed;
+    left: 0px;
+}
+
+.message-lin {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: calibri;
+    font-size: 1.15rem;
+
+}
+
+.titl {
+    font-family: calibri;
+    color:rgba(40, 38, 38, 0.87);
+    font-size: 1.45rem;
+    
+}
+
+.txt {
+    font-family: calibri;
+    color:rgba(0, 0, 0, 0.479);
+    font-size: 1.15rem;
+
+}
+
+.dismissbtn {
+    position: relative;
+    top: -130px;
+    left: 1450px;
+    background: none;
+    border: none;
+    color: rgb(135, 129, 129);
+    font-size: 20px;
+    cursor: pointer;
+    font-family: calibri;
+}
+
+.msg {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.15rem;
+    box-shadow:rgba(0, 0, 0, 0.768);
+    z-index: 999;
+    width: 1600px;
+}
+
+.move {
+    position: relative;
+    left: 100px;
+}

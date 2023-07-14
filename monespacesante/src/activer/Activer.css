@@ -1,0 +1,159 @@
+.blue-bond {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 45px;
+  background-color: rgba(8, 0, 255, 0.819);
+  z-index: 9999;
+}
+
+
+.content {
+  margin-left: 150px;
+}
+
+.Man {
+  width: 500px;
+  height: px;
+  position: relative;
+  right: 115px;
+}
+
+.Question {
+  width: 600px;
+  height: px;
+  position: relative;;
+  right: 700px;
+  top: 380px;
+}
+
+.Dark {
+  color: rgba(0, 0, 0, 0.77);
+  font-family: calibri;
+  font-size: 3.5rem;
+  position: relative;
+  margin-left: 400px;
+  margin-top: -400px; 
+}
+
+.Grayish {
+  color: rgba(45, 44, 44, 0.77);
+  font-family: calibri;
+  font-size: 1.15rem;
+  position: relative;
+  margin-left: 400px;
+}
+
+.Chrono {
+  position: relative;
+  margin-left: 400px;
+}
+
+.Next_Chrono {
+  position: relative;
+  margin-left: 490px;
+  margin-top: -60px;
+  font-family: calibri;
+  color: rgba(33, 30, 142, 0.819);
+  font-size: 1.2rem;
+}
+
+.Confidential {
+  position: relative;
+  width: 100px;
+  margin-left: 395px;
+  margin-top: 10px;
+}
+
+.Next_Confidential {
+  position: relative;
+  margin-left: 495px;
+  margin-top: -75px;
+  font-family: calibri;
+  color: rgba(33, 30, 142, 0.819);
+  font-size: 1.2rem;
+}
+
+.Stethoscope {
+  position: relative;
+  width: 100px;
+  margin-left: 390px; 
+}
+
+.Next_Stethoscope {
+  position: relative;
+  margin-left: 490px;
+  margin-top: -80px;
+  font-family: calibri;
+  color: rgba(33, 30, 142, 0.819);
+  font-size: 1.2rem;
+}
+
+.Link {
+  position: relative;
+  margin-left: 400px;
+  margin-top: 120px;
+}
+
+.Decor {
+  color: rgba(8, 0, 255, 0.819);
+  text-decoration: underline;
+  font-family: calibri;
+  font-size: 1.2rem;
+  transition: text-decoration 0.3s, color 0.3s;
+}
+
+.Decor:hover {
+  color:rgba(45, 44, 44, 0.77);
+  text-decoration: none;
+}
+
+.Btn {
+  position: relative;
+  margin-left: 600px;
+  top: -70px;
+  border-radius: 28px;
+  border-color: white;
+  background-color: rgba(8, 0, 255, 0.819);
+  color: white;
+  width: 230px;
+  height: 50px;
+  font-size: 1.1rem;
+  font-family: calibri;
+  box-shadow:1px 2px 4px rgba(0, 0, 0, 0.77);
+  transition: box-shadow 0.3s, border-color 0.3s, background-color 0.3s, color 0.3s, 
+}
+
+.Btn:hover {
+  border-color: rgba(8, 0, 255, 0.819);
+  background-color: white;
+  box-shadow: 2px 4px 8px rgba (0, 0, 0, 0.77);
+
+}
+
+.Repair {
+  font-family:calibri;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.Repair:hover {
+  color: rgba(8, 0, 255, 0.819);
+}
+
+.Text {
+  position: relative;
+  font-family: calibri;
+  font-size: 1.2rem;
+  color: rgba(78, 78, 78, 0.73);
+  margin-top: 70px;
+  margin-left: 400px;
+}
+
+.Satte {
+  text-decoration: underline;
+  color: rbga(8, 0, 255, 0.819);
+}

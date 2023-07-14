@@ -1,0 +1,131 @@
+.additional-options {
+  position: relative;
+  border-radius: 25px;
+  width: 250px;
+  left: 600px;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border-radius: 25px;
+    position: relative;
+    margin-left: 520px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    border-spacing: 10px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: calibri;
+    font-size: 1.1rem;
+    color: rgba(31, 31, 33, 0.819);
+ 
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: rgba(8, 0, 255, 0.819);
+    border-width: 1.5px;
+  }
+  
+  .circle.selected {
+    background-color: #ffffff;
+    border-color: rgba(8, 0, 255, 0.819);
+    border-width: 2.3px;
+  }
+  
+  .circle.selected::before {
+    content: '●';
+    color: rgba(8, 0, 255, 0.819);
+    font-size: 27px;
+    position: relative;
+    bottom: 1.75px;
+  }
+
+  .JeSuis {
+    position: relative;
+    color: rgba(31, 31, 33, 0.819);
+    font-family: calibri;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 150px;
+
+  }
+  
+  .Arrow {
+    color: rgba(8, 0, 255, 0.819);
+    width: 35px;
+    position: relative;
+    top: 13px;
+  }
+
+  .Retour {
+    text-decoration: none;
+    color: rgba(8, 0, 255, 0.819);
+  }
+
+  .Plus_Tard {
+    position: relative;
+    top: 50px;
+    left: 570px;
+    border-color: rgba(8, 0, 255, 0.819);
+    border-width: 3px;
+    background-color: white;
+    color: rgba(8, 0, 255, 0.819);
+    border-radius: 28px;
+    height: 50px;
+    width: 200px;
+    font-family: calibri;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s, box-shadow 0.3s; 
+  }
+
+  .Plus_Tard:hover {
+    border-color: white;
+    background-color: rgba(8, 0, 255, 0.819);
+    color: white;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.7);
+  }
+
+  .Continuer {
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    left: 620px;
+    border-color: white;
+    border-radius: 28px;
+    border-width: 3px;
+    background-color: rgba(8, 0, 255, 0.819);
+    color: white;
+    height: 50px;
+    width: 110px;
+    font-family: calibri;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  }
+
+  .Continuer:hover{
+    border-color: rgba(8, 0, 255, 0.819);
+    background-color: white;
+    color: rgba(8, 0, 255, 0.819);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.7);
+  }

@@ -1,0 +1,59 @@
+.Seven {
+    text-align: center;
+    position: relative;
+    top: 1800px;
+}
+
+.Titre {
+    font-family: calibri;
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.Gris {
+    color: rgba(45, 44, 44, 0.77);
+    font-family: calibri;
+    font-size: 1.12rem;
+}
+
+.Rose {
+    color: rgba(230, 27, 196, 0.919);
+    font-family: calibri;
+    font-size: 1.5rem;
+}
+
+.Bleue {
+    color: rgb(16, 69, 191);
+    font-family: calibri;
+    font-size: 1.5rem;
+}
+
+.Gris1 {
+    color: rgba(45, 44, 44, 0.77);
+    font-family: calibri;
+    font-size: 0.9rem;
+}
+
+.Web {
+    color: rgb(16, 69, 191);
+    font-family: calibri;
+    font-size: 1.5rem;
+}
+
+.Case1 {
+    position: relative;
+    right: 18%;
+    margin-top: -2%;
+}
+
+.Case2 {
+    position: relative;
+    margin-top: -8%;
+    right: 0%;
+}
+
+.Case3 {
+    position: relative;
+    right: -19%;
+    margin-top: -9.2%;
+}

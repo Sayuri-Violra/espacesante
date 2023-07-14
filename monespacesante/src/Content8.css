@@ -1,0 +1,56 @@
+.Middle {
+    position: relative;
+    right: -425px;
+    top: 1900px;
+}
+
+.Picture {
+    margin-right: 400px;
+}
+
+.Pinked {
+    color: rgba(230, 27, 196, 0.919);
+    font-family: calibri;
+    font-size: 1.7rem;
+    margin-right: 250px;
+    position: absolute;
+    left: 400px;
+}
+
+.All {
+    margin-left: 500px;
+    margin-top: -200px;
+}
+
+.Darkened {
+    color: rgba(0, 0, 0, 0.77);
+    font-family: calibri;
+    font-size: 2rem;
+    margin-top: -17.5px;
+    margin-right: -180px;
+    position: absolute;
+    left: 400px;
+}
+
+.Grayed {
+    color: rgba(45, 44, 44, 0.77);
+    font-family: calibri;
+    font-size: 1rem;
+    position: absolute;
+    left: 400px;
+}
+
+.UMove {
+    position: relative;
+    top: -280px;
+}
+
+.UUMove {
+    position: relative;
+    top: -200px;
+}
+
+.UUUMove {
+    position: relative;
+    top: -140px;
+}

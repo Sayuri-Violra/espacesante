@@ -1,0 +1,42 @@
+.cont {
+    display: flex;
+  }
+  
+  .imgcont {
+    position: absolute;
+    left: 55%;
+    top: 330%;
+  }
+
+  .otherimg {
+    position: absolute;
+    top: 368.5%;
+    left: 6%;
+    
+  }
+  
+  .textcont {
+    position: absolute;
+    left: 7%;
+    top: 340.5%;
+
+  }
+
+  .pin {
+    color: rgba(230, 27, 196, 0.919);
+    font-family: calibri;
+    font-size: 1.7rem;
+  }
+
+  .bla {
+    color: rgba(0, 0, 0, 0.77);
+    font-family: calibri;
+    font-size: 2rem;
+  }
+
+.gra {
+    color: rgba(45, 44, 44, 0.77);
+    font-family: calibri;
+    font-size: 1rem;
+}
+  
