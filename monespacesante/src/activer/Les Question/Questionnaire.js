@@ -1,24 +1,24 @@
-import {React, useState} from 'react';
+import { React, useState } from 'react';
 import './Questionnaire.css';
 import Arrow from './Arrow.png';
 import enfant from './Enfant.js';
-import {Link, Routes, Route} from 'react-router-dom';
+import { Link, Routes, Route } from 'react-router-dom';
 import './Activer.css';
 
 const Questionnaire = () => {
-    const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption, setSelectedOption] = useState(null);
 
   const handleOptionClick = (option) => {
     setSelectedOption(option);
   };
 
-
   return (
     <div>
       <a href="http://localhost:3000/Activer" className="Retour">
-        <img src={Arrow} className="Arrow"/> &nbsp;
+        <img src={Arrow} className="Arrow" /> &nbsp;
         Retour
-        </a>
+      </a>
+      <progress className="Bar" id="loading-bar" value="2.5" max="100"></progress>
       <h2 className="JeSuis">Je suis:</h2>
       <div className="options-container">
         <div className="option" onClick={() => handleOptionClick('homme')}>
@@ -35,10 +35,21 @@ const Questionnaire = () => {
         </div>
       </div>
       <a href="http://localhost:3000/Activer">
-        <button className="Plus_Tard"><Link className="Repairing" to="http://localhost:3000/Activer">Continuer plus tard</Link></button>
-        </a>
-      <button className="Continuer"><Link className="Repair" to="/Enfant">Suivant</Link></button>
+        <button className="Plus_Tard">
+          <Link className="Repairing" to="http://localhost:3000/Activer">
+            Continuer plus tard
+          </Link>
+        </button>
+      </a>
+      {selectedOption && ( // Show "Suivant" button only if an option is selected
+        <button className="Continuer">
+          <Link className="Repair" to="/Enfant">
+            Suivant
+          </Link>
+        </button>
+      )}
     </div>
   );
 };
+
 export default Questionnaire;

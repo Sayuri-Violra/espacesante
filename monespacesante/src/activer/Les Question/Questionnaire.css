@@ -64,7 +64,6 @@
     font-size: 2rem;
     text-align: center;
     margin-top: 150px;
-
   }
   
   .Arrow {
@@ -81,7 +80,7 @@
 
   .Plus_Tard {
     position: relative;
-    top: 50px;
+    top: 80px;
     left: 570px;
     border-color: rgba(8, 0, 255, 0.819);
     border-width: 3px;
@@ -107,7 +106,7 @@
   .Continuer {
     text-decoration: none;
     position: relative;
-    top: 50px;
+    top: 80px;
     left: 620px;
     border-color: white;
     border-radius: 28px;
@@ -128,4 +127,96 @@
     background-color: white;
     color: rgba(8, 0, 255, 0.819);
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.7);
+  }
+
+  .Ph {
+    position: relative;
+    color: rgba(31, 31, 33, 0.819);
+    font-family: calibri;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .Drink {
+    color: rgba(31, 31, 33, 0.819);
+    font-family: calibri;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    margin-left: 200px;
+  }
+
+  .Smoke {
+    color: rgba(31, 31, 33, 0.819);
+    font-family: calibri;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin-left: 500px;
+  }
+
+  .Condition {
+    color: rgba(31, 31, 33, 0.819);
+    font-family: calibri;
+    font-size: 1.4rem;
+    text-align: center;
+    position: relative;
+    top: 250px;
+  }
+
+  .Condition1 {
+    color: rgba(31, 31, 33, 0.819);
+    font-family: calibri;
+    font-size: 1.4rem;
+    text-align: center;
+    position: relative;
+    top: 60px;
+  }
+
+  .WriteInHere {
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    border-color: rgba(8, 0, 255, 0.819);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+    width: 250px;
+    height: 32px;
+    margin-top: 50px;
+    top: 200px;
+    margin-left: 650px;
+  }
+
+  .WriteInHere1 {
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    border-color: rgba(8, 0, 255, 0.819);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+    width: 250px;
+    height: 32px;
+    margin-top: -10px;
+    top: 50px;
+    margin-left: 630px;
+  }
+
+  .Luffy {
+    position: relative;
+    top: 230px;
+  }
+
+  .Luffy1 {
+    position: relative;
+    top: 48px;
+    margin-left: 220px;
+  }
+
+  .Bar {
+    position: absolute;
+    margin-left: 300px;
+    top: 80px;
+    width: 600px;
+    height: 35px;
+    color: rgba(8, 0, 255, 0.819);
   }
